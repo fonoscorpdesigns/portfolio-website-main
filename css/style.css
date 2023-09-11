@@ -9,7 +9,6 @@ Secondary Color (Green): #white; */
 }
 
 body {
-    
     font-family: 'Lato', sans-serif;
     line-height: 1.4;
 }
@@ -71,6 +70,7 @@ img {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .profile-pic {
@@ -230,7 +230,10 @@ a:active {
     padding-top: 20px;
     margin: auto;
 }
-
+.brief {
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
 .brief,
 .wireframe-text p {
     text-align: center;
@@ -295,7 +298,10 @@ a:active {
 	margin-bottom: 10px;
 }
 .explain-area {
-	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .explain-area p{
 	margin-bottom: 10px;
@@ -767,7 +773,7 @@ a:active {
 
 @media screen and (min-width: 992px) {
      body {
-    background-color: #C4C9D1;
+    background-color: #fff;
 }
     .navtoggle li .icon {
         display: none;
@@ -833,7 +839,8 @@ a:active {
     .grid-container-3 {
         width: 100%;
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
+		padding: 40px;
     }
 
     .grid-item-3 {
@@ -914,9 +921,16 @@ a:active {
     }
 
     .profile-name {
-        width: 100%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
+		margin-bottom: 40px;
+    }
+	.profile-name p {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+		
     }
 
     .about p {
@@ -988,7 +1002,42 @@ a:active {
 	.the-w-heading {
 		margin-bottom: 40px;
 	}
-	
+	.project-head {
+	display: flex;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+}
+	.profile-name {
+		margin-top: 140px;
+	}
+	.idea-n-key {
+		display: flex;
+	}
+	.ideation {
+		padding: 40px;
+	}
+	.ideation li {
+		margin-left: 20px;
+	}
+	.style-n-board {
+		display: flex;
+		width: 90%;
+		margin-left: auto;
+	}
+	.typo1 img {
+		width: 400px;
+	}
+	.typo img {
+		max-width: 85%;
+	}
+	.parlet-area {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 40px;
+	}
+
 	/* ========iOS and Android========== */
 	.project-pic {
 		float: left;
