@@ -550,6 +550,17 @@ a:active {
 	margin-top: 40px;
 }
 
+
+.country-logo-area {
+	background-color: #DC4747;
+	padding: 20px;
+	color: #fff;
+	margin-bottom: 20px
+}
+.country-logo-area img{
+	width: 40%;
+
+}
 /* ========Responsive========== */
 @media screen and (max-width: 374px) {
     nav ul {
@@ -767,6 +778,38 @@ a:active {
 		width: 60%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	/* ========Osusu Games========== */
+	.all-comp {
+		background-color: #4E9E99;
+	}
+	
+	.low-frames {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.all-games{
+	display: flex;
+}
+.all-games img {
+	padding: 20px;
+	width: 80%;
+}
+.mock-area {
+	width: 100%;
+		background-image: url("../img/game/baloon2.jpeg");
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+}
+	.mock-area img{
+		width: 40%;
+		padding: 40px;
+		margin-left: 140px;
+	}
+	.tab-long-comp {
+		width: 40%;
 	}
 	
 }
@@ -1095,6 +1138,10 @@ a:active {
 	.pics {
 		padding: 10px;
 	}
+	.tab {
+		text-align: center;
+		margin-bottom: 20px;
+	}
 
 	
 	/* ========Pocket vault========== */
@@ -1146,7 +1193,9 @@ a:active {
 	}
 	
 /* ========Osusu Games========== */
-	
+	.all-comp {
+		background-color: #4E9E99;
+	}
 	.low-frames {
 	width: 80%;
 	margin-left: auto;
@@ -1155,11 +1204,28 @@ a:active {
 .all-games{
 	display: flex;
 }
+	.tab p {
+		text-align: center;
+	}
 .all-games img {
 	padding: 20px;
 	width: 80%;
 }
-	
+.mock-area {
+	width: 100%;
+		background-image: url("../img/game/baloon2.jpeg");
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+}
+	.mock-area img{
+		width: 40%;
+		padding: 40px;
+		margin-left: 140px;
+	}
+	.tab-long-comp {
+		width: 40%;
+	}
 	
     @keyframes color-change {
         from {
