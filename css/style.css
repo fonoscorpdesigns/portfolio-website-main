@@ -550,7 +550,7 @@ a:active {
 	margin-top: 40px;
 }
 
-
+/* ========country recipe session========== */
 .country-logo-area {
 	background-color: #DC4747;
 	padding: 20px;
@@ -559,7 +559,41 @@ a:active {
 }
 .country-logo-area img{
 	width: 40%;
-
+}
+.cooking-heading {
+	padding: 4px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.early-reserach {
+	border: 2px solid #DC4747;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 40px;
+}
+.early-reserach p {
+	margin-top: 10px;
+}
+.why-recipe {
+	background-color: #DC4747;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	margin-top: 40px;
+}
+.why-the-recipe ul li {
+	width: 80%;
+	margin-left: 20px;
+}
+.cooking-finding {
+	margin-top: 40px;
+}
+.typo-tab,
+.persona-tab {
+	background-color: #DC4747;
+	padding: 40px;
+	margin-bottom: 20px;
+	border-radius: 20px;
 }
 /* ========Responsive========== */
 @media screen and (max-width: 374px) {
