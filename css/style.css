@@ -188,8 +188,8 @@ a:active {
 
 /* ========main section========== */
 .main {
+	width: 100vw;
     margin-top: 20px;
-    padding: 10px;
 }
 
 .grid-container {
@@ -215,7 +215,6 @@ a:active {
 
 .main-project {
     margin-top: 20px;
-    padding: 10px;
 }
 
 .profile-name {
@@ -328,9 +327,6 @@ a:active {
 }
 .sketch-tab {
 	margin-top: 40px;
-}
-.findings-area-tab {
-	display: flex;
 }
 .findings-area {
 	display: flex;
@@ -1038,12 +1034,11 @@ a:active {
 	display: flex;
 }
 .findings-area {
-	width: 100%;
 	margin-top: 20px;
 	text-align: center;
 }
 .findings-tab {
-	width: 80%;
+	width: 100%;
 	padding: 20px;
 	margin-bottom: 20px;
 }
@@ -1327,6 +1322,11 @@ a:active {
 	}
 
 	/* ========iOS and Android========== */
+	.main-project {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.project-pic {
 		float: left;
 	}
