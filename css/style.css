@@ -221,6 +221,9 @@ a:active {
 .profile-name {
     text-align: center;
 }
+.country-profile-name {
+	text-align: center;
+}
 
 .profile-pic img {
     border-radius: 80px;
@@ -287,7 +290,7 @@ a:active {
 	margin-top: 40px;
 }
 .the-w-heading {
-	width: 80%;
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -326,11 +329,18 @@ a:active {
 .sketch-tab {
 	margin-top: 40px;
 }
+.findings-area-tab {
+	display: flex;
+}
 .findings-area {
-	margin-top: 40px;
+	display: flex;
+	width: 80%;
+	margin-top: 20px;
 	text-align: center;
 }
 .findings-tab {
+	width: 80%;
+	padding: 20px;
 	margin-bottom: 20px;
 }
 .flow-area {
@@ -552,18 +562,25 @@ a:active {
 
 /* ========country recipe session========== */
 .country-logo-area {
+	width: 60%;
 	background-color: #DC4747;
 	padding: 20px;
 	color: #fff;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
 }
 .country-logo-area img{
 	width: 40%;
 }
 .cooking-heading {
+	width: 90%;
 	padding: 4px;
 	margin-bottom: 40px;
 	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .early-reserach {
 	border: 2px solid #DC4747;
@@ -581,11 +598,15 @@ a:active {
 	color: #fff;
 	margin-top: 40px;
 }
+
 .why-the-recipe ul li {
 	width: 80%;
 	margin-left: 20px;
 }
 .cooking-finding {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 40px;
 }
 .typo-tab,
@@ -595,6 +616,45 @@ a:active {
 	margin-bottom: 20px;
 	border-radius: 20px;
 }
+.jtbd-area {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.jtbd-area p {
+	width: 80%;
+	padding: 2px;
+	margin-bottom: 4px;
+}
+.jtbd1 {
+	margin-bottom: 20px;
+}
+.recipe-final-tab {
+	background-color: #000;
+}
+.recipe-tab{
+	padding: 20px;
+}
+.participants {
+	width: 90px;
+}
+.participants {
+		width: 100%;
+		padding: 10px;
+	}
+	.the-participants {
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		padding: 20px;
+	}
+.all-games{
+	display: flex; 
+}
+.tab img{
+	width: 90%;
+}
+
 /* ========Responsive========== */
 @media screen and (max-width: 374px) {
     nav ul {
@@ -778,10 +838,7 @@ a:active {
 	.findings-area {
 		display: flex;
 	}
-	.findings-tab {
-		width: 100%;
-		padding: 40px;
-	}
+
 	.finding-text p {
 		text-align: center;
 		width: 80%;
@@ -843,10 +900,165 @@ a:active {
 		margin-left: 140px;
 	}
 	.tab-long-comp {
-		width: 40%;
+		width: 100%;
 	}
 	
 }
+/* ========Country recipe session========== */
+	.cooking-heading p{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.early-approach-area {
+		width: 60%;
+		padding: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.early-reserach {
+		width: 100%;
+		padding: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.approach-heading {
+		text-align: center;
+	}
+	.why-the-recipe {
+		width: 90%;
+		padding: 20x;
+		text-align: left;
+		padding: 20px;
+	}
+	.why-the-recipe p{
+
+		background-color: #FCEFE9;
+		padding: 4px;
+		margin-left: 10px;
+	}
+	.recipe-areas {
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+	}
+	.findings-area {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.findings-tab-pic {
+		width: 50%;
+		padding: 20px;
+	}
+	.findings-tab p {
+		padding: 20px;
+		width: 100%;
+		text-align: center:
+	}
+	.findings-tab img {
+		width: 100%;
+		padding: 40px;
+	}
+	.inspiration-tab-area {
+		display: flex;
+	}
+	.sketch-frame {
+		width: 80%;
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.sketch-frame img{
+		width: 100%;
+	} 
+	.personas {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 40px;
+	}
+	.persona-tab {
+		padding: 20px;
+		
+	}
+	.personas-tab img{
+		padding: 20px;
+		background-color: #FCEFE9;
+	}
+	.cook-specifiecs-area p{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+	}
+	.jtbd-layers {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.jtbd-steps {
+		padding: 10px;
+	}
+.jtbd1 p {
+		width: 100%;
+	}
+	.jtbd-steps-main {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.study-text-n-typo {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+.ab-type {
+	display: flex;
+}
+	.typo-tab {
+		width: 90%;
+		padding: 20px;
+	}
+	.typo-tab img{
+		width: 100%;
+	}
+	.study-text {
+		width: 100%;
+	}
+	.study-text p {
+		padding: 20px;
+	}
+	
+	.findings-area-tab {
+	display: flex;
+}
+.findings-area {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+.findings-tab {
+	width: 80%;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+	.inspiration-tab {
+		padding: 20px;
+	}
+	.mood-tab {
+		padding: 20px;
+	}
+	.cook-mockup {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 40px;
+	}
 
 @media screen and (min-width: 992px) {
      body {
@@ -985,7 +1197,7 @@ a:active {
 
     .project-pic img {
         display: block;
-        width: 400px;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1000,7 +1212,6 @@ a:active {
     .profile-name {
         width: 60%;
         margin-left: auto;
-        margin-right: auto;
 		margin-bottom: 40px;
     }
 	.profile-name p {
@@ -1122,13 +1333,9 @@ a:active {
 	.findings-area {
 		display: flex;
 	}
-	.findings-tab {
-		width: 100%;
-		padding: 40px;
-	}
 	.finding-text p {
 		text-align: center;
-		width: 80%;
+		width: 60%;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 0;
@@ -1165,9 +1372,11 @@ a:active {
 		padding: 20px;
 	}
 	.final-designs-area {
-		width: 100%;
-		display: grid;
-  	grid-template-columns: auto auto auto auto auto;
+		display: flex;
+		width: 90%;
+		padding: 20px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.pics {
 		padding: 10px;
@@ -1226,6 +1435,170 @@ a:active {
 		margin-right: auto;
 	}
 	
+	/* ========Country recipe session========== */
+	.cooking-heading p{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.early-approach-area {
+		width: 80%;
+		display: flex;
+		padding: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.early-reserach {
+		width: 60%;
+		padding: 40px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.approach-heading {
+		text-align: center;
+	}
+	.why-the-recipe {
+		width: 90%;
+		background-color: #FCEFE9;
+		padding: 20x;
+		text-align: left;
+	}
+	.why-the-recipe p{
+		width: 80%;
+		background-color: #FCEFE9;
+		padding: 4px;
+		margin-left: 10px;
+	}
+	.recipe-areas {
+		width: 80%;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+	}
+	.findings-area {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.findings-tab-pic {
+		width: 50%;
+		padding: 20px;
+	}
+	.findings-tab p {
+		padding: 20px;
+		width: 100%;
+		text-align: center:
+	}
+	.findings-tab img {
+		width: 60%;
+		padding: 10px;
+	}
+	.inspiration-tab-area {
+		display: flex;
+	}
+	.sketch-frame {
+		width: 80%;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.sketch-frame img{
+		width: 100%;
+	} 
+	.personas {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 40px;
+	}
+	.persona-tab {
+		padding: 20px;
+		
+	}
+	.personas-tab img{
+		padding: 20px;
+		background-color: #FCEFE9;
+	}
+	.cook-specifiecs-area p{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+	}
+	.jtbd-layers {
+		display: flex;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.jtbd-steps {
+		padding: 10px;
+	}
+	.jtbd-steps-main {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ab-type,
+	.study-text-n-typo {
+		display: flex;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.typo-tab {
+		width: 90%;
+		padding: 20px;
+	}
+	.typo-tab img{
+		width: 100%;
+	}
+	.study-text {
+		width: 100%;
+	}
+	.study-text p {
+		width: 100%;
+		padding-top: 0px;
+	}
+	.participants {
+		width: 30%;
+		padding: 20px;
+	}
+	.the-participants {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		padding: 20px;
+	}
+	.findings-area-tab {
+	display: flex;
+}
+.findings-area {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+.findings-tab {
+	width: 80%;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+	.inspiration-tab {
+		padding: 20px;
+	}
+	.mood-tab {
+		padding: 20px;
+	}
+	.cook-mockup {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 40px;
+	}
+
 /* ========Osusu Games========== */
 	.all-comp {
 		background-color: #4E9E99;
@@ -1258,7 +1631,7 @@ a:active {
 		margin-left: 140px;
 	}
 	.tab-long-comp {
-		width: 40%;
+		width: 100%;
 	}
 	
     @keyframes color-change {
