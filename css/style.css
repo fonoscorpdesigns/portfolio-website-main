@@ -212,6 +212,11 @@ a:active {
 .grid-item-3 img {
     width: 100%;
 }
+.grid-item {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .main-project {
     margin-top: 20px;
@@ -562,6 +567,7 @@ a:active {
 	background-color: #DC4747;
 	padding: 20px;
 	color: #fff;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -876,6 +882,17 @@ a:active {
 	margin-left: auto;
 	margin-right: auto;
 }
+	.big-comp-frames {
+		display: flex;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #FFF;
+		padding: 40px;
+	}
+	.big-comp-frames img {
+		width: 100%;
+	}
 .all-games{
 	display: flex;
 }
@@ -1043,7 +1060,7 @@ a:active {
 	margin-bottom: 20px;
 }
 	.inspiration-tab {
-		padding: 20px;
+		padding: 10px;
 	}
 	.mood-tab {
 		padding: 20px;
@@ -1443,7 +1460,6 @@ a:active {
 	}
 	.early-approach-area {
 		width: 80%;
-		display: flex;
 		padding: 20px;
 		margin-left: auto;
 		margin-right: auto;
@@ -1451,8 +1467,8 @@ a:active {
 	.early-reserach {
 		width: 60%;
 		padding: 40px;
-		margin-right: 20px;
-		margin-left: 20px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.approach-heading {
 		text-align: center;
