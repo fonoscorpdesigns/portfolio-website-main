@@ -477,6 +477,12 @@ With the help and information gathered from the usability testing, I made change
 		 <img src="img/country-recipe/design-mockup/3.png" alt="image">
 	</div>
 	
+	<div class="navigation-links">
+	<a href="pocket-vault.html"><button class="btn1" onclick="prev()">Prev</button></a>
+	<a href="game.html"><button class="btn2" onclick="next()">Next</button></a>
+	</div>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	
     <!--Footer Section-->
 
@@ -510,6 +516,28 @@ With the help and information gathered from the usability testing, I made change
 </div>
 	  
     </footer>
+	
+	<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 </body>
 		</html>

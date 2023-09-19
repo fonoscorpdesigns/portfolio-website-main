@@ -657,6 +657,88 @@ a:active {
 	width: 90%;
 }
 
+/* ========Move to top========== */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #555; /* Set a background color */
+  color: #fff; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #B8C7FC; /* Add a dark-grey background on hover */
+}
+/* ========Previous and next button========== */
+.prev-nxt-btn {
+	text-align: center;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+.btn1,
+.btn2{
+	padding: 10px 16px;
+	border-radius: 4px;
+	background-color: #3F508C;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.btn1:hover,
+.btn2:hover{
+	background-color: #475EB0;
+	color: #fff;
+}
+.btn1 {
+	float: left;
+	margin-left: 20px;
+}
+.btn2 {
+	float: right;
+	margin-right: 20px;
+}
+.btn3 {
+	margin-left: 20px;
+	background-color: lightgray;
+	padding: 10px 16px;
+	border-radius: 4px;
+	color: #000;
+	border: none;
+	float: left;
+	margin-left: 20px;
+}
+.btn4 {
+	margin-right: 20px;
+	background-color: lightgray;
+	padding: 10px 16px;
+	border-radius: 4px;
+	color: #000;
+	border: none;
+	float: right;
+	margin-right: 20px;
+}
+.navigation-links {
+	padding: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
 /* ========Responsive========== */
 @media screen and (max-width: 374px) {
     nav ul {
