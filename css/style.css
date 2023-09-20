@@ -9,12 +9,13 @@ Secondary Color (Green): #white; */
 }
 
 body {
-	position: fixed;
+	
     font-family: 'Lato', sans-serif;
     line-height: 1.4;
 }
 
 /* =======header=========== */
+
 .logo {
     width: 40%;
 }
@@ -289,6 +290,9 @@ a:active {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
+	background-color: #E3EDA6;
+	border-radius: 20px;
+	padding: 40px;
 }
 .guiding-heading {
 	text-align: center;
@@ -313,7 +317,7 @@ a:active {
 }
 .explain-area p{
 	margin-bottom: 10px;
-	background-color: #F4C211;
+	background-color: #E3EDA6;
 	padding: 20px;
 	border-radius: 20px;
 }
@@ -527,6 +531,9 @@ a:active {
 .cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
 }
+.top-heading {
+	width: 100vw;
+}
 
 .navtoggle,
 .responsive {
@@ -739,7 +746,21 @@ a:active {
 	text-align: center;
 	margin-bottom: 20px;
 }
-
+.early-approach-area {
+		width: 100%;
+		padding: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.early-reserach {
+		width: 100%;
+		padding: 40px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.approach-heading {
+		text-align: center;
+	}
 
 /* ========Responsive========== */
 @media screen and (max-width: 374px) {
@@ -1546,7 +1567,7 @@ a:active {
 		margin-right: auto;
 	}
 	.early-approach-area {
-		width: 80%;
+		width: 60%;
 		padding: 20px;
 		margin-left: auto;
 		margin-right: auto;
