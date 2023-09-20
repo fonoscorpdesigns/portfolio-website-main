@@ -675,7 +675,9 @@ a:active {
 }
 
 #myBtn:hover {
-  background-color: #B8C7FC; /* Add a dark-grey background on hover */
+  background-color: #B8C7FC; /* Add a dark-grey 
+	background on hover */
+	color: #000;
 }
 /* ========Previous and next button========== */
 .prev-nxt-btn {
