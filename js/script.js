@@ -27,3 +27,6 @@ window.onclick = function(event) {
     }
   }
 }
+$(document).click(function(){
+	$(".dd_main_wrap").removeClass("active");
+})
