@@ -9,6 +9,7 @@ Secondary Color (Green): #white; */
 }
 
 body {
+	position: fixed;
     font-family: 'Lato', sans-serif;
     line-height: 1.4;
 }
@@ -1420,6 +1421,9 @@ a:active {
 		margin-right: auto;
 		margin-bottom: 40px;
 	}
+	.dropbtn {
+	padding: 0px 30px;
+}
 
 	/* ========iOS and Android========== */
 	.main-project {
