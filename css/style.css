@@ -61,6 +61,7 @@ nav a {
 
 .top-heading {
     background-color: #3F508C;
+	width: 100vw;
 }
 
 img {
@@ -107,6 +108,7 @@ h3 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+	margin-top: 40px;
 }
 
 h4 {
@@ -229,6 +231,13 @@ a:active {
 .country-profile-name {
 	text-align: center;
 }
+.country-profile-name img {
+	width: 120px;
+	margin-top: 40px;
+}
+.country-profile-name h3 {
+	margin-bottom: 40px;
+}
 
 .profile-pic img {
     border-radius: 80px;
@@ -247,6 +256,11 @@ a:active {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.brief p {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .mockups {
@@ -296,20 +310,25 @@ a:active {
 .guiding-heading {
 	text-align: center;
 	margin-top: 40px;
+	margin-bottom: 20px;
 }
 .the-w-heading {
-	width: 60%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .the-w-heading li {
-	text-align: left;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .guiding-text {
 	margin-bottom: 10px;
 }
 .explain-area {
 	margin-bottom: 40px;
+	margin-top: 20px;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -319,6 +338,10 @@ a:active {
 	background-color: #E3EDA6;
 	padding: 20px;
 	border-radius: 20px;
+}
+.explain-area1 {
+	margin-left: 20px;
+	padding: 20px;
 }
 .workflow-tab {
 	background-color: #fff;
@@ -337,11 +360,20 @@ a:active {
 .sketch-tab {
 	margin-top: 40px;
 }
+.sketch-tab p{
+	text-align: center;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
 .findings-area {
 	display: flex;
 	width: 80%;
 	margin-top: 20px;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 .findings-tab {
 	width: 80%;
@@ -354,6 +386,7 @@ a:active {
 .wireframes-area {
 	margin-top: 40px;
 	margin-bottom: 30px;
+	padding: 4px;
 }
 .wireframes-area p{
 	text-align: center;
@@ -361,7 +394,13 @@ a:active {
 .wireframes-tab {
 	margin-bottom: 30px;
 }
+.wireframes-tab2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .style-tab {
+	padding: 40px;
 	margin-top: 30px;
 }
 .sub-heading {
@@ -380,7 +419,25 @@ a:active {
 	margin-left: auto;
 	margin-right: auto;
 }
-.final-designs-area img{
+.style-tab-area {
+		display: flex;
+	width: 100%;
+	}
+	.style-tab-area img {
+		max-width: 25%;
+		margin-left: auto;
+		
+		margin-right: auto;
+
+	}
+.final-designs-area {
+		display: flex;
+		width: 90%;
+		padding: 20px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+.mockup-designs-area img {
 	margin-bottom: 20px;
 }
 
@@ -396,6 +453,7 @@ a:active {
 .foot-menu {
     background-color: #D77037;
     text-align: center;
+	width: 100vw;
 }
 
 .contact,
@@ -556,12 +614,13 @@ a:active {
 }
 .specifics-area {
 		background-color: #FEBF9C;
+		padding: 
 	}
 .iosframe {
-	width: 80%;
+	display: flex;
 	margin-left: auto;
 	margin-right: auto;
-		margin-top: 20px;
+	margin-top: 20px;
 	}
 .iosname {
 	text-align: center;
@@ -636,6 +695,13 @@ a:active {
 	margin-bottom: 4px;
 }
 .jtbd1 {
+	width: 90%;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.jtbd1 p {
+	width: 100%;
 	margin-bottom: 20px;
 }
 .recipe-final-tab {
@@ -651,6 +717,10 @@ a:active {
 		width: 100%;
 		padding: 10px;
 	}
+.participants-1 {
+	width: 100%;
+	padding: 1%;
+}
 	.the-participants {
 		margin-left: auto;
 		margin-right: auto;
@@ -768,7 +838,45 @@ a:active {
 		padding: 40px;
 		border-radius: 20px;
     }
-
+.profile-name-2 {
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+/* ========cook recipe========== */
+.sketch-frame {
+		width: 90%;
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+.findings-area-tab {
+	display: flex;
+}
+.findings-tab-pic h5{
+		width: 100%;
+	padding: 2px;
+	}
+.findings-tab-pic {
+		width: 100%;
+		padding: 20px;
+	}
+.ab-type {
+	display: flex;
+}
+.cook-specifiecs-area p{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+	}
+.early-reserach {
+		width: 60%;
+		padding: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 /* ========Responsive========== */
 @media screen and (max-width: 374px) {
     nav ul {
@@ -961,28 +1069,89 @@ a:active {
 		margin-top: 0;
 		margin-bottom: 40px;
 	}
-	.specifics-area {
-		background-color: #FEBF9C;
+	/* ========iOS and Android========== */
+	.main-project {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
-	.guiding-heading-pics {
+	.findings-area {
 		display: flex;
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
 	}
-	.specifiecs-area {
-		padding: 40px;
+	.profile-name-2 {
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
-	.explain-area {
-		width: 60%;
-		padding: 40px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.delivery-area {
+	.finding-text p {
+		text-align: center;
 		width: 60%;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
+	.iosname {
+		text-align: center;
+		margin-top: 40px;
+	}
+	
+	.iosframe {
+		display: flex;
+		margin-top: 20px;
+	}
+	.specifics-area {
+		margin-top: 40px;
+		background-color: #FEBF9C;
+		padding-top: 40px;
+	}
+	.wireframes-area {
+		width: 25%;
+		padding: 10px;
+	}
+	.styleicons {
+		display: flex;
+	}
+	.style-tab {
+		width: 100%;
+		padding: 20px;
+	}
+	.style-tab p {
+		font-size: 27px;
+		padding: 20px;
+	}
+	.style-tab-area {
+		display: flex;
+	}
+	.style-tab-area img {
+		max-width: 30%;
+		padding: 20px;
+	}
+	.style-typeface-tab {
+		padding: 40px;
+	}
+	.final-designs-area {
+		display: flex;
+		width: 90%;
+		padding: 20px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.mockup-designs-area {
+		display: flex;
+		width: 90%;
+		padding: 20px;
+		margin-right: auto;
+		margin-left: auto;
+		background-color: #E3EDA6;
+		margin-bottom: 20px;
+	}
+	.pics {
+		padding: 10px;
+	}
+	.tab {
+		text-align: center;
+		margin-bottom: 20px;
 	}
 	/* ========Osusu Games========== */
 	.all-comp {
@@ -1027,8 +1196,10 @@ a:active {
 	.tab-long-comp {
 		width: 100%;
 	}
-	
-}
+	.wireframes-tab2 {
+		margin-left: auto;
+		margin-right: auto;
+	}
 /* ========Country recipe session========== */
 	.cooking-heading p{
 		width: 60%;
@@ -1211,12 +1382,12 @@ a:active {
 
     nav ul {
         float: right;
-        margin-right: 10px;
+        margin-right: 40px;
     }
 
     nav li {
         display: inline-block;
-        margin: 0 8px;
+        margin: 0 4px;
         line-height: 40px;
         border-radius: 4px;
         background-color: #3F508C;
@@ -1226,7 +1397,7 @@ a:active {
     nav a {
         font-size: 18px;
         border: 1px solid rgba(255, 255, 255, 0.19);
-        padding: 7px 40px;
+        padding: 7px 20px;
     }
 
      a:hover {
@@ -1327,11 +1498,19 @@ a:active {
     }
 
     .preview h5 {
-        width: 40%;
+        width: 60%;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+		padding-top: 40px;
     }
+	.preview p {
+		margin-top: 40px;
+		font-size: 17px;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
     .profile-name {
         width: 60%;
@@ -1344,6 +1523,7 @@ a:active {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+		text-align: center;
 		
     }
 
@@ -1410,6 +1590,8 @@ a:active {
 	
 	.research-area {
 		display: flex;
+		margin-top: 40px;
+		margin-bottom: 240px;
 	}
 	.approach-tab {
 		width: 100%;
@@ -1430,8 +1612,14 @@ a:active {
 		text-align: center;
 	}
 	.profile-name p {
-		margin-top: 140px;
 		text-align: center;
+		width: 40%;
+		margin-bottom: 40px;
+	}
+	.profile-name-2 {
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 	.idea-n-key {
 		display: flex;
@@ -1460,7 +1648,7 @@ a:active {
 		margin-bottom: 40px;
 	}
 	.dropbtn {
-	padding: 0px 30px;
+	padding: 0px 20px;
 }
 
 	/* ========iOS and Android========== */
@@ -1487,13 +1675,15 @@ a:active {
 		text-align: center;
 		margin-top: 40px;
 	}
+	
 	.iosframe {
 		display: flex;
 		margin-top: 20px;
-		
 	}
 	.specifics-area {
+		margin-top: 40px;
 		background-color: #FEBF9C;
+		padding-top: 40px;
 	}
 	.wireframes-area {
 		width: 25%;
@@ -1506,6 +1696,10 @@ a:active {
 		width: 100%;
 		padding: 20px;
 	}
+	.style-tab p {
+		font-size: 27px;
+		padding: 20px;
+	}
 	.style-tab-area {
 		display: flex;
 	}
@@ -1513,12 +1707,24 @@ a:active {
 		max-width: 30%;
 		padding: 20px;
 	}
+	.style-typeface-tab {
+		padding: 40px;
+	}
 	.final-designs-area {
 		display: flex;
 		width: 90%;
 		padding: 20px;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	.mockup-designs-area {
+		display: flex;
+		width: 90%;
+		padding: 20px;
+		margin-right: auto;
+		margin-left: auto;
+		background-color: #E3EDA6;
+		margin-bottom: 20px;
 	}
 	.pics {
 		padding: 10px;
@@ -1570,12 +1776,34 @@ a:active {
 	.specifiecs-area {
 		padding: 40px;
 	}
+	.all-parts {
+		width: 100%;
+		display: flex;
+	}
+	.parts h5 {
+		width: 100%;
+	}
+	.parts {
+		width: 100%;
+	}
+	
 	.explain-area {
-		width: 60%;
+		width: 80%;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #E3EDA6;
+		border-radius: 20px;
 		padding: 40px;
+	}
+	.explain-area li{
+		width: 100%;
+		padding: 10px;
 		margin-left: auto;
 		margin-right: auto;
 	}
+	
+	
 	
 	/* ========Country recipe session========== */
 	.cooking-heading p{
@@ -1617,6 +1845,10 @@ a:active {
 		margin-left: auto;
 		margin-right: auto;
 		padding: 20px;
+	}
+	.recipe-area2 {
+		display: flex;
+		width: 100%;
 	}
 	.findings-area {
 		width: 80%;
@@ -1741,6 +1973,9 @@ a:active {
 	}
 
 /* ========Osusu Games========== */
+	.osusu-games img {
+		width: 20px;
+	}
 	.all-comp {
 		background-color: #4E9E99;
 	}
