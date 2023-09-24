@@ -8,7 +8,7 @@ Secondary Color (Green): #white; */
     margin: 0;
 }
 
-body {
+html, body {
     font-family: 'Lato', sans-serif;
     line-height: 1.4;
 }
@@ -27,6 +27,9 @@ body {
 }
 .navtoggle li:not(:last-child) {
     display: none;
+}
+nav {
+	padding: 10px;
 }
 nav li {
     display: inline-block;
@@ -94,7 +97,7 @@ img {
 
 h2 {
     text-align: center;
-    font-size: 3.25em;
+    font-size: 1.25em;
     font-weight: 700;
 }
 
@@ -346,6 +349,10 @@ a:active {
 .workflow-tab {
 	background-color: #fff;
 }
+.workflow-tab img{
+	width: 80%;
+}
+
 /* =======iOS and Android=========== */
 .approach-tab {
 	margin-top: 20px;
@@ -743,7 +750,7 @@ a:active {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #CDD8FF; /* Set a background color */
+  background-color: #E5EBFF; /* Set a background color */
   color: #000; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 4px 1px; /* Some padding */
@@ -816,7 +823,7 @@ a:active {
 	margin-bottom: 20px;
 }
 .early-approach-area {
-		width: 100%;
+		width: 90%;
 		padding: 20px;
 		margin-left: auto;
 		margin-right: auto;
@@ -877,6 +884,18 @@ a:active {
 		margin-left: auto;
 		margin-right: auto;
 	}
+.cook-mockup {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 40px;
+	}
+.jtbd-layers {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 /* ========Responsive========== */
 @media screen and (max-width: 374px) {
     nav ul {
@@ -888,6 +907,11 @@ a:active {
         margin: 0;
     }
 	
+element.style {
+}
+	h2 {
+		font-size: 1.25em;
+	}
 }
 
 
